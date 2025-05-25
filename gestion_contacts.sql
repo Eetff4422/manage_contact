@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS contacts (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP -- Date de création
 );
 
--- Données d'exemple (optionnel)
+-- Données d'exemple
 INSERT INTO contacts (nom, email, telephone) VALUES
 ('Jean Dupont', 'jean.dupont@example.com', '0601020304'),
 ('Marie Curie', 'marie.curie@example.com', '0612345678'),
